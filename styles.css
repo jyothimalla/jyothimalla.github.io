@@ -54,3 +54,29 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* form styles */
+form {
+    max-width: 400px;
+    margin-top: 20px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button[type="submit"] {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #005f99;
+}
