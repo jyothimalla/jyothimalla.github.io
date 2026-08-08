@@ -312,3 +312,9 @@ footer {
         padding: 56px 20px;
   }
 }
+
+
+/* ---------- Contact form spacing fix ---------- */
+#contact form br {
+      display: none;
+}
