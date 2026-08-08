@@ -1,4 +1,4 @@
-/* ===== jyothimalla.github.io â site styles ===== */
+/* ===== jyothimalla.github.io Ã¢ÂÂ site styles ===== */
 
 :root {
     --bg: #ffffff;
@@ -85,6 +85,15 @@ header nav a:hover {
 }
 
 header nav a:hover::after {
+    width: 100%;
+    background: #8b5cf6;
+}
+
+header nav a.active {
+    color: #8b5cf6;
+}
+
+header nav a.active::after {
     width: 100%;
     background: #8b5cf6;
 }
@@ -489,5 +498,5 @@ footer {
     color: var(--accent);
     border: 1.5px solid var(--accent);
 }
-/* ===== jyothimalla.github.io â site styles ===== */
+/* ===== jyothimalla.github.io Ã¢ÂÂ site styles ===== */
 
