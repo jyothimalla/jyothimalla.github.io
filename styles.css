@@ -318,3 +318,99 @@ footer {
 #contact form br {
       display: none;
 }
+
+
+/* ---------- Experience ---------- */
+#experience .exp-item {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 26px;
+  margin-bottom: 20px;
+}
+
+#experience .exp-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+#experience .exp-role {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+#experience .exp-org {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin-top: 2px;
+}
+
+#experience .exp-dates {
+  color: var(--muted);
+  font-size: 0.88rem;
+  white-space: nowrap;
+  background: #fff;
+  border: 1px solid var(--border);
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+#experience .exp-item ul {
+  margin: 10px 0 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+#experience .exp-item li {
+  margin-bottom: 6px;
+}
+
+/* ---------- Quick facts (About) ---------- */
+.quick-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.quick-facts span {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.88rem;
+}
+
+/* ---------- Skills ---------- */
+.skills-group {
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.skills-group h3 {
+  font-size: 1rem;
+  margin-bottom: 14px;
+  color: var(--text);
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skill-tag {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 16px;
+  font-size: 0.85rem;
+  color: var(--text);
+}
