@@ -1,4 +1,4 @@
-/* ===== jyothimalla.github.io ÃÂ¢ÃÂÃÂ site styles ===== */
+/* ===== jyothimalla.github.io ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ site styles ===== */
 
 :root {
     --bg: #ffffff;
@@ -56,6 +56,8 @@ header h1 {
     font-size: 1.25rem;
     margin: 0;
     letter-spacing: -0.01em;
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 
 header nav {
@@ -503,5 +505,5 @@ footer {
     color: var(--accent);
     border: 1.5px solid var(--accent);
 }
-/* ===== jyothimalla.github.io ÃÂ¢ÃÂÃÂ site styles ===== */
+/* ===== jyothimalla.github.io ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ site styles ===== */
 
