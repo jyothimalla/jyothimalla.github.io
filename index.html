@@ -10,20 +10,31 @@
 <body>
     <header>
         <h1>Jyothi Malla</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#portfolio">Projects</a>
-            <a href="#publications">Publications</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="header-right">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#portfolio">Projects</a>
+                <a href="#publications">Publications</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="header-social">
+                <a href="https://www.linkedin.com/in/jyothi-malla/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://scholar.google.com/citations?user=vEbtqcoAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+            </div>
+        </div>
     </header>
 
     <section id="home">
+        <img src="assets/images/header-banner.png" alt="Jyothi Malla - AI Engineer" class="hero-banner">
         <h2>Welcome</h2>
         <p>Hello! I'm <strong>Jyothi Malla</strong>, a Teaching Assistant &amp; Researcher at Goldsmiths, University of London, working at the intersection of Artificial Intelligence and healthcare. My research focuses on Clinical Decision Support systems, predictive modelling and NLP for maternal and infant health equity.</p>
+        <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+            <a href="#publications" class="btn btn-secondary">See Publications</a>
+        </div>
     </section>
 
     <section id="about">
@@ -52,6 +63,11 @@
                 <li>Assisting students with Python programming, statistics and data analysis.</li>
                 <li>Academic support during labs, coursework and assessments; liaison between students and faculty.</li>
             </ul>
+            <div class="skill-tags">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Statistics</span>
+                <span class="skill-tag">Data Analysis</span>
+            </div>
         </div>
         <div class="exp-item">
             <div class="exp-item-header">
@@ -68,6 +84,11 @@
                 <li>Leading a structured literature review for AIiH 2026, focusing on AI-based CDS and maternal health.</li>
                 <li>Evaluating ARMMAN's IHRP tool in the Indian context, centred on community health worker-delivered care (ANMs, ASHAs).</li>
             </ul>
+            <div class="skill-tags">
+                <span class="skill-tag">Clinical Decision Support</span>
+                <span class="skill-tag">Maternal &amp; Infant Health</span>
+                <span class="skill-tag">AI Evaluation</span>
+            </div>
         </div>
         <div class="exp-item">
             <div class="exp-item-header">
@@ -82,6 +103,11 @@
                 <li>Implemented risk management policies to reduce financial exposure; oversaw loan proposals and repayment performance.</li>
                 <li>Supported team training and operational oversight across credit assessment functions.</li>
             </ul>
+            <div class="skill-tags">
+                <span class="skill-tag">Credit Risk Analysis</span>
+                <span class="skill-tag">Quantitative Modelling</span>
+                <span class="skill-tag">Risk Management</span>
+            </div>
         </div>
         <div class="exp-item">
             <div class="exp-item-header">
@@ -94,6 +120,10 @@
             <ul>
                 <li>Managed client relationships, analysed feedback for service improvements, and drove retention through proactive complaint resolution.</li>
             </ul>
+            <div class="skill-tags">
+                <span class="skill-tag">Client Relationship Management</span>
+                <span class="skill-tag">Service Improvement</span>
+            </div>
         </div>
         <div class="exp-item">
             <div class="exp-item-header">
@@ -107,6 +137,11 @@
                 <li>Founded and led an IT consulting firm delivering end-to-end software solutions and e-commerce platforms.</li>
                 <li>Managed client delivery, API integrations, and cost-effective supplier contracts.</li>
             </ul>
+            <div class="skill-tags">
+                <span class="skill-tag">IT Consulting</span>
+                <span class="skill-tag">API Integration</span>
+                <span class="skill-tag">Client Delivery</span>
+            </div>
         </div>
         <div class="exp-item">
             <div class="exp-item-header">
@@ -120,6 +155,10 @@
                 <li>Optimised database schemas and high-load endpoints, significantly improving performance for frequently accessed data.</li>
                 <li>Improved exception handling and reduced downtime during production updates.</li>
             </ul>
+            <div class="skill-tags">
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Database Optimisation</span>
+            </div>
         </div>
     </section>
 
@@ -129,10 +168,22 @@
             <li>
                 <h3>NurtureAI &mdash; Clinical Decision Support System</h3>
                 <p>Full-stack React/Vite CDS frontend comprising a midwife dashboard, patient detail views, assessment wizard and mother-facing view, backed by a FastAPI (Python) service for data ingestion, predictive scoring and clinical alerts, with a PostgreSQL/SQLAlchemy data layer and GitLab CI/CD.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Vite</span>
+                    <span class="skill-tag">FastAPI</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">GitLab CI/CD</span>
+                </div>
             </li>
             <li>
                 <h3>Predictive Modelling for Patient Readmission</h3>
                 <p>MSc dissertation developing ML/NLP models on high-granularity clinical notes to predict hospital readmission risk. Cited in a UK Parliament discussion on NHS wait-time planning; research subsequently published peer-reviewed.</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Machine Learning</span>
+                    <span class="skill-tag">NLP</span>
+                    <span class="skill-tag">Python</span>
+                </div>
             </li>
         </ul>
     </section>
@@ -142,7 +193,6 @@
         <ul>
             <li><strong>Kumar, A., Malla, J., &amp; Sharma, A. (2025).</strong> BioBERT-RxReadmit: Improving Hospital Readmission Predictions Through Clinical Text Analysis with BioBERT. <em>International Journal on Engineering Artificial Intelligence Management, Decision Support, and Policies</em>, 2(1), 14&ndash;29. <a href="https://doi.org/10.63503/j.ijaimd.2025.38" target="_blank" rel="noopener">doi.org/10.63503/j.ijaimd.2025.38</a></li>
             <li><strong>Malla, J. et al.</strong> NurtureAI: An Equity-Centred Clinical Decision Support Framework for Maternal and Infant Health. <em>In preparation &mdash; target AIiH 2026, Imperial College London.</em></li>
-            <li><strong>Parliamentary Citation &mdash; NHS Wait-Time Planning (2024).</strong> MSc dissertation cited in a UK Parliament discussion on NHS planning.</li>
         </ul>
     </section>
 
@@ -194,7 +244,7 @@
         <p>Email: <a href="mailto:mjyothionline@gmail.com">mjyothionline@gmail.com</a></p>
         <p>Phone: <a href="tel:+447747106130">07747 106 130</a></p>
         <p>Social:
-            <a href="#">LinkedIn</a> | <a href="#">Google Scholar</a>
+            <a href="https://www.linkedin.com/in/jyothi-malla/" target="_blank" rel="noopener">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=vEbtqcoAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
         </p>
         <!-- simple contact form -->
         <form action="https://formspree.io/f/xxxxxxx" method="POST">
